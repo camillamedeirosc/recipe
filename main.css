@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Opens Sans';
+    font-weight: bold;
+    font-style: normal;
+    src: url();
+}
+
+body {
+    font-family:  "Open Sans", sans-serif; 
+    padding: 10px;
+}
+
+main{ 
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+
+
+p:hover{
+    color: green;
+}
+
+h1{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul li {
+    font-size: 16px;
+    position: relative;
+    left: 1em;
+    padding-right: 1em;    
+}
+
+p{
+    position: relative;
+    left: 1em;
+    padding-right: 1em;  
+}
+
+h4{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-size: 20px;
+}
+
+img {
+    width: auto;
+    max-width: 75%;
+    height: 75%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    float: left;
+    padding: 5px;
+    color: red;
+}  
+
+@media (min-width: 950px) {
+    @font-face {
+        font-family: 'Opens Sans';
+        font-weight: bold;
+        font-style: normal;
+        src: url();
+    }
+    
+    body {
+        font-family:  "Open Sans", sans-serif; 
+        padding: 10px;
+    }
+    
+    main{ 
+        display: inline;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    
+    p:hover{
+        color: green;
+    }
+    
+    h1{
+        font-family: 'Open Sans';
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    h2, h3 {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    ul li {
+        font-size: 16px;
+        position: relative;
+        left: 1em;
+        padding-right: 1em;    
+    }
+    
+    p{
+        position: relative;
+        left: 1em;
+        padding-right: 1em;  
+    }
+    
+    h4{
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-size: 20px;
+    }
+    
+    img {
+        width: auto;
+        max-width: 45%;
+        height: 45%;
+        float: left;
+        border-right: 5px;
+        display:block;
+    }
+
+    a{
+        float: left;
+        color: red;
+    }  
+}
